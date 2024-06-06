@@ -1,0 +1,25 @@
+.hero__wrap{
+    padding: 15px 0;
+        .nav__title{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+                .nav__item{
+                    display: flex;
+                    align-items: center;
+                    select{
+                        background: inherit;
+                        border: none;
+                    }
+                    .icon__img{
+                      position: relative;
+                      .icon{
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                      }
+                    }
+                }
+            }
+}

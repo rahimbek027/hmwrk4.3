@@ -1,0 +1,44 @@
+header{
+    width: 100%;
+    padding: 10px;
+    background:#F7EBE5;
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav__collect{
+            .nav__title{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+                .nav__item{
+                    display: flex;
+                    align-items: center;
+                    select{
+                        background: inherit;
+                        border: none;
+                    }
+                    .icon__img{
+                      position: relative;
+                      .icon{
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                      }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 1250px){
+        .nav__icon{
+            display: none;
+        }
+    }
+    @media screen and (max-width: 1185px){
+        .nav__collect{
+            display: none;
+        }
+    }
+}
